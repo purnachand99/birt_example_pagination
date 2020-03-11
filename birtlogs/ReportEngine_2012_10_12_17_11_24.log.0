@@ -1,0 +1,1608 @@
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.api.impl.ReportEngine <init>
+FINE: ReportEngine created. EngineConfig: EngineConfig: org.eclipse.birt.report.engine.api.EngineConfig.scriptObjects={};logLevel=FINEST;org.eclipse.birt.report.engine.api.EngineConfig.emitterConfigs={html=org.eclipse.birt.report.engine.api.HTMLEmitterConfig@9f2588};logMaxBackupIndex=5;logDest=E:\WorkSpaces\PracticeWorkspace\BirtIntegration\birtlogs;logRollingSize=5242880; 
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportitemGeneration
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadGenerationExtensionDefns
+FINE: Load generation extension: Chart
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportitemPresentation
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadPresentationExtensionDefns
+FINE: Load prsentation extension: Chart
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportitemQuery
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadQueryExtensionDefns
+FINE: Load query extension: Chart
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.emitters
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load html emitter org.eclipse.birt.report.engine.emitter.html
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load pdf emitter org.eclipse.birt.report.engine.emitter.pdf
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load postscript emitter org.eclipse.birt.report.engine.emitter.postscript
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load ppt emitter org.eclipse.birt.report.engine.emitter.ppt
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load xls emitter org.eclipse.birt.report.engine.emitter.prototype.excel
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load doc emitter org.eclipse.birt.report.engine.emitter.word
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load odp emitter org.eclipse.birt.report.engine.emitter.odp
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load ods emitter org.eclipse.birt.report.engine.emitter.prototype.ods
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load odt emitter org.eclipse.birt.report.engine.emitter.odt
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportEventHandler
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportItemPreparation
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.dataExtraction
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadDataExtractionExtensions
+FINE: Load data extraction extension: org.eclipse.birt.report.engine.dataextraction.csv
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.extendedItemFactory
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+FINE: Load extendedItem extension: Crosstab
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+FINE: Load extendedItem extension: CrosstabCell
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+FINE: Load extendedItem extension: AggregationCell
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+FINE: ReportEngine.openReportDesign: designName=E:\WorkSpaces\PracticeWorkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\BirtIntegration\Reports/books_report.rptdesign 
+12 Oct, 2012 5:11:24 PM org.eclipse.birt.report.model.util.XMLParserPoolImpl createParser
+FINEST: created a new SAX parser
+12 Oct, 2012 5:11:25 PM org.eclipse.birt.report.model.util.XMLParserPoolImpl createParser
+FINEST: created a new SAX parser
+12 Oct, 2012 5:11:26 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+FINE: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@223be4 
+12 Oct, 2012 5:11:26 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+FINE: EngineTask.setAppContext: context=
+12 Oct, 2012 5:11:26 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+FINE: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@223be4 
+12 Oct, 2012 5:11:26 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+FINE: EngineTask.setAppContext: context=
+12 Oct, 2012 5:11:26 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+FINE: Running the report with paramters: 
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.api.DataEngineContext DataEngineContext
+FINER: ENTRY 1 [object Object] null org.eclipse.birt.core.archive.FileArchiveWriter@10a4a32 org.eclipse.birt.report.engine.executor.ApplicationClassLoader@8d539f
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.api.DataEngineContext DataEngineContext
+FINER: RETURN
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl DataEngineImpl
+FINER: ENTRY org.eclipse.birt.data.engine.api.DataEngineContext@66a917
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineSession DataEngineSession
+FINER: ENTRY org.eclipse.birt.data.engine.impl.DataEngineImpl@14a8f44
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineSession DataEngineSession
+FINER: RETURN
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl DataEngineImpl
+FINER: RETURN
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl <init>
+FINER: Data Engine starts up
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSource
+FINER: ENTRY Books Data Source
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSource
+FINER: DataEngine.defineDataSource: OdaDataSourceDesign(Name : Books Data Source
+ExtensionID : org.eclipse.datatools.enablement.oda.xml
+PrivateProperties : {}
+ PulicProperties : FILELIST=http://localhost:9080/BirtIntegration/ReportXmlDatasource/books.xml;OdaPropertyConfigId=org.eclipse.datatools.enablement.oda.xml_Books Data Source;
+)
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataSourceRuntime DataSourceRuntime
+FINER: ENTRY org.eclipse.birt.report.data.adapter.internal.adapter.OdaDataSourceAdapter@2c6f70 [object Object]
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataSourceRuntime DataSourceRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.OdaDataSourceRuntime OdaDataSourceRuntime
+FINER: ENTRY org.eclipse.birt.report.data.adapter.internal.adapter.OdaDataSourceAdapter@2c6f70 [object Object]
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.OdaDataSourceRuntime OdaDataSourceRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.OdaDataSourceRuntime <init>
+FINER: OdaDataSourceRuntime starts up
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSource
+FINER: RETURN
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.report.data.adapter.impl.ModelAdapter adaptDataSet
+FINE: handle type: org.eclipse.birt.report.model.api.OdaDataSetHandle
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSet
+FINER: ENTRY Data Set
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSet
+FINER: DataEngine.defineDataSet: OdaDataSetDesign(Name : Data Set
+DataSourceName : Books Data Source
+ResultSetHints : org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@f8acd0, 
+	org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@199049, 
+	org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@4fe94c, 
+	org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@5d9d90, 
+	org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@1378ec
+ExtensionID : org.eclipse.datatools.enablement.oda.xml.dataSet
+QueryText : table0#-TNAME-#table0#:#[/catalog/book]#:#{id;STRING;/@id},{author;STRING;/author},{title;STRING;/title},{genre;STRING;/genre},{price;STRING;/price}
+PrivateProperties : {XML_FILE=null, MAX_ROW=-1}
+PublicProperties : {}
+)
+12 Oct, 2012 5:11:27 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSet
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINER: ENTRY QueryDefinition(DataSetName : Data Set
+ResultSetExpressions : {id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149}
+MaxRows : 0
+
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINE: Start to prepare query: QueryDefinition(DataSetName : Data Set
+ResultSetExpressions : {id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149}
+MaxRows : 0
+
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery PreparedDataSourceQuery
+FINER: ENTRY org.eclipse.birt.data.engine.impl.DataEngineImpl@14a8f44 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@746d23 org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@148bd9e {org.eclipse.datatools.connectivity.oda.util_consumerResourceIds=org.eclipse.datatools.connectivity.oda.util.ResourceIdentifiers@98f9c2, HTML_RENDER_CONTEXT=org.eclipse.birt.report.engine.api.HTMLRenderContext@135707c, BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@16c14e7}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedQuery PreparedQuery
+FINER: PreparedQuery starts up.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggregateTable AggregateTable
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggregateTable AggregateTable
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggregateTable AggregateTable
+FINER: ENTRY C:\Users\DELL2~1\AppData\Local\Temp\DataEngine_21663556_1\ [object Object] []
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggregateTable AggregateTable
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedQuery <init>
+FINE: Start to prepare a PreparedQuery.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggrRegistry AggrRegistry
+FINER: ENTRY 0 -1 true org.eclipse.birt.core.script.ScriptContext@21e605
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggrRegistry AggrRegistry
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY id
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY author
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY title
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY price
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.GroupBindingColumn GroupBindingColumn
+FINER: ENTRY null 0 {genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.GroupBindingColumn GroupBindingColumn
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedQuery <init>
+FINE: Finished preparing the PreparedQuery.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery PreparedDataSourceQuery
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery PreparedOdaDSQuery
+FINER: RETURN [Ljava.lang.Object;@1032cf5
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINE: Finished preparing query.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINER: ENTRY QueryDefinition(DataSetName : Data Set
+ResultSetExpressions : {id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149, row[price]_Sum=org.eclipse.birt.data.engine.api.querydefn.Binding@2916b821}
+MaxRows : 0
+Groups : GroupDefinition(Name : row[genre], KeyExpression : row["genre"], SortDirection : 0, Interval : 0, IntervalRange : 1.0, )
+
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINE: Start to prepare query: QueryDefinition(DataSetName : Data Set
+ResultSetExpressions : {id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149, row[price]_Sum=org.eclipse.birt.data.engine.api.querydefn.Binding@2916b821}
+MaxRows : 0
+Groups : GroupDefinition(Name : row[genre], KeyExpression : row["genre"], SortDirection : 0, Interval : 0, IntervalRange : 1.0, )
+
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery PreparedDataSourceQuery
+FINER: ENTRY org.eclipse.birt.data.engine.impl.DataEngineImpl@14a8f44 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@618565 org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@17c8f7f {org.eclipse.datatools.connectivity.oda.util_consumerResourceIds=org.eclipse.datatools.connectivity.oda.util.ResourceIdentifiers@98f9c2, HTML_RENDER_CONTEXT=org.eclipse.birt.report.engine.api.HTMLRenderContext@135707c, BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@16c14e7}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedQuery PreparedQuery
+FINER: PreparedQuery starts up.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggregateTable AggregateTable
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggregateTable AggregateTable
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggregateTable AggregateTable
+FINER: ENTRY C:\Users\DELL2~1\AppData\Local\Temp\DataEngine_21663556_1\ [object Object] [org.eclipse.birt.data.engine.api.querydefn.GroupDefinition@b10190]
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggregateTable AggregateTable
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedQuery <init>
+FINE: Start to prepare a PreparedQuery.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggrRegistry AggrRegistry
+FINER: ENTRY 0 -1 true org.eclipse.birt.core.script.ScriptContext@21e605
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggrRegistry AggrRegistry
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY id
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY author
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY title
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY price
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.GroupBindingColumn GroupBindingColumn
+FINER: ENTRY null 0 {genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.GroupBindingColumn GroupBindingColumn
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggrRegistry AggrRegistry
+FINER: ENTRY 1 -1 true org.eclipse.birt.core.script.ScriptContext@21e605
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.aggregation.AggrRegistry AggrRegistry
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.GroupBindingColumn GroupBindingColumn
+FINER: ENTRY row["genre"] 1 {row[price]_Sum=org.eclipse.birt.data.engine.api.querydefn.Binding@2916b821}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.GroupBindingColumn GroupBindingColumn
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedQuery <init>
+FINE: Finished preparing the PreparedQuery.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery PreparedDataSourceQuery
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery PreparedOdaDSQuery
+FINER: RETURN [Ljava.lang.Object;@93b52b
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINE: Finished preparing query.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataSetRuntime DataSetRuntime
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@148bd9e null
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataSetRuntime DataSetRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime OdaDataSetRuntime
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@148bd9e null
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime OdaDataSetRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime <init>
+FINER: OdaDataSetRuntime starts up
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: ENTRY null org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@1b0edb2 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@746d23 [object Object]
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.QueryExecutor QueryExecutor
+FINER: ENTRY [object Object] org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@746d23 org.eclipse.birt.data.engine.impl.aggregation.AggregateTable@1747f59 org.eclipse.birt.data.engine.impl.DataEngineSession@154de0b
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.QueryExecutor QueryExecutor
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedQuery doPrepare
+FINER: Start to prepare the execution.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataSetRuntime DataSetRuntime
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@148bd9e org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor@bdb859
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.DataSetRuntime DataSetRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime OdaDataSetRuntime
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@148bd9e org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor@bdb859
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime OdaDataSetRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime <init>
+FINER: OdaDataSetRuntime starts up
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: ENTRY null org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@e1fb6c org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@746d23 [object Object]
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ConnectionManager getInstance
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ConnectionManager getInstance
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.ConnectionManager@1376afa
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ConnectionManager openConnection
+FINER: ENTRY org.eclipse.datatools.enablement.oda.xml {OdaPropertyConfigId=org.eclipse.datatools.enablement.oda.xml_Books Data Source, FILELIST=http://localhost:9080/BirtIntegration/ReportXmlDatasource/books.xml}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DriverManager getDriverHelper(String,boolean,Map)
+FINER: ENTRY org.eclipse.datatools.enablement.oda.xml false
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Driver Driver
+FINER: ENTRY org.eclipse.datatools.enablement.oda.xml
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Driver Driver
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.Driver@5eb748
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DriverManager getDriverHelper(String,boolean,Map)
+FINER: RETURN org.eclipse.datatools.connectivity.oda.consumer.helper.OdaDriver@1fc7b3a
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ConnectionManager addProfileProviderService( Map )
+FINER: Added default property service: org.eclipse.datatools.connectivity.oda.profile.connectionPropertyService
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DriverManager getExtensionDataSourceId
+FINER: ENTRY org.eclipse.datatools.enablement.oda.xml
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DriverManager getExtensionDataSourceId
+FINER: RETURN org.eclipse.datatools.enablement.oda.xml
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection Connection
+FINER: ENTRY org.eclipse.datatools.connectivity.oda.consumer.helper.OdaConnection@1044daf org.eclipse.datatools.enablement.oda.xml
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection Connection
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.Connection@1882d18
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ConnectionManager openConnection
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.Connection@1882d18
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection getMaxQueries
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection getMaxQueries
+FINER: RETURN 0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: ENTRY null org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@e1fb6c org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@746d23 [object Object]
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: ENTRY null org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@e1fb6c org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@746d23 [object Object]
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection isOpen
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection isOpen
+FINER: RETURN true
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection prepareStatement(String,String,QuerySpecification)
+FINER: ENTRY table0#-TNAME-#table0#:#[/catalog/book]#:#{id;STRING;/@id},{author;STRING;/author},{title;STRING;/title},{genre;STRING;/genre},{price;STRING;/price} org.eclipse.datatools.enablement.oda.xml.dataSet
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection prepareOdaQuery
+FINER: ENTRY table0#-TNAME-#table0#:#[/catalog/book]#:#{id;STRING;/@id},{author;STRING;/author},{title;STRING;/title},{genre;STRING;/genre},{price;STRING;/price} org.eclipse.datatools.enablement.oda.xml.dataSet org.eclipse.datatools.connectivity.oda.spec.QuerySpecification@1a5f7d3
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection setOdaQuerySpec
+FINER: ENTRY org.eclipse.datatools.connectivity.oda.spec.QuerySpecification@1a5f7d3
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection setOdaQuerySpec
+FINE: Ignoring the UnsupportedOperationException thrown by ODA driver (org.eclipse.datatools.enablement.oda.xml) on IQuery#setSpecification.  This call is optional and does not affect query processing.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection setOdaQuerySpec
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection prepareOdaQuery
+FINER: RETURN org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery@e43b44
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement PreparedStatement
+FINER: ENTRY org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery@e43b44 org.eclipse.datatools.enablement.oda.xml.dataSet org.eclipse.birt.data.engine.odaconsumer.Connection@1882d18 table0#-TNAME-#table0#:#[/catalog/book]#:#{id;STRING;/@id},{author;STRING;/author},{title;STRING;/title},{genre;STRING;/genre},{price;STRING;/price}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement PreparedStatement
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.PreparedStatement@4c9c17
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.Connection prepareStatement(String,String,QuerySpecification)
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.PreparedStatement@4c9c17
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement setProperty
+FINER: ENTRY XML_FILE null
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doSetProperty
+FINER: ENTRY XML_FILE null
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doSetProperty
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement setProperty
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement setProperty
+FINER: ENTRY MAX_ROW -1
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doSetProperty
+FINER: ENTRY MAX_ROW -1
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doSetProperty
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement setProperty
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement setMaxRows
+FINER: ENTRY 0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doSetMaxRows
+FINER: ENTRY 0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doSetMaxRows
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement setMaxRows
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getMetaData
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetMetaData
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getProjectedColumns
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getRuntimeMetaData
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getRuntimeMetaData
+FINER: RETURN org.eclipse.datatools.connectivity.oda.consumer.helper.OdaResultSetMetaData@65724d
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetProjectedColumns( IResultSetMetaData )
+FINER: ENTRY org.eclipse.datatools.connectivity.oda.consumer.helper.OdaResultSetMetaData@65724d
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData ResultSetMetaData
+FINER: ENTRY org.eclipse.datatools.connectivity.oda.consumer.helper.OdaResultSetMetaData@65724d org.eclipse.datatools.enablement.oda.xml org.eclipse.datatools.enablement.oda.xml.dataSet
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData ResultSetMetaData
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData@1727745
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ProjectedColumns ProjectedColumns
+FINER: ENTRY org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData@1727745
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData getColumnType
+FINEST: Column at index 1 has ODA data type 1.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DataTypeUtil toTypeClass
+FINEST: Converted from ODA data type 1 to Java data type class class java.lang.String.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData getColumnType
+FINEST: Column at index 2 has ODA data type 1.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DataTypeUtil toTypeClass
+FINEST: Converted from ODA data type 1 to Java data type class class java.lang.String.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData getColumnType
+FINEST: Column at index 3 has ODA data type 1.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DataTypeUtil toTypeClass
+FINEST: Converted from ODA data type 1 to Java data type class class java.lang.String.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData getColumnType
+FINEST: Column at index 4 has ODA data type 1.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DataTypeUtil toTypeClass
+FINEST: Converted from ODA data type 1 to Java data type class class java.lang.String.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSetMetaData getColumnType
+FINEST: Column at index 5 has ODA data type 1.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.DataTypeUtil toTypeClass
+FINEST: Converted from ODA data type 1 to Java data type class class java.lang.String.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ProjectedColumns ProjectedColumns
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.ProjectedColumns@13f7175
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetProjectedColumns( IResultSetMetaData )
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.ProjectedColumns@13f7175
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getProjectedColumns
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.ProjectedColumns@13f7175
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ProjectedColumns getColumnsMetadata
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ProjectedColumns projectAllBaseColumns
+FINEST: Projected all columns [I@31c43f .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ProjectedColumns getColumnsMetadata
+FINER: RETURN [org.eclipse.birt.data.engine.executor.ResultFieldMetadata@14b2819, org.eclipse.birt.data.engine.executor.ResultFieldMetadata@135b95d, org.eclipse.birt.data.engine.executor.ResultFieldMetadata@1cba87, org.eclipse.birt.data.engine.executor.ResultFieldMetadata@19fc4e, org.eclipse.birt.data.engine.executor.ResultFieldMetadata@364ef]
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetResultClass
+FINER: ENTRY [org.eclipse.birt.data.engine.executor.ResultFieldMetadata@14b2819, org.eclipse.birt.data.engine.executor.ResultFieldMetadata@135b95d, org.eclipse.birt.data.engine.executor.ResultFieldMetadata@1cba87, org.eclipse.birt.data.engine.executor.ResultFieldMetadata@19fc4e, org.eclipse.birt.data.engine.executor.ResultFieldMetadata@364ef]
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetResultClass
+FINER: RETURN org.eclipse.birt.data.engine.executor.ResultClass@148f7e0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetMetaData
+FINER: RETURN org.eclipse.birt.data.engine.executor.ResultClass@148f7e0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getMetaData
+FINER: RETURN org.eclipse.birt.data.engine.executor.ResultClass@148f7e0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.PreparedQuery doPrepare
+FINER: Finish preparing the execution.
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ServiceForQueryResults ServiceForQueryResults
+FINER: ENTRY org.eclipse.birt.data.engine.impl.DataEngineSession@154de0b [object Object] 2 org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery@1988d36 org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery@1988d36 org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor@bdb859 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@746d23 org.eclipse.birt.data.engine.impl.ExprManager@5f0e7d
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ServiceForQueryResults ServiceForQueryResults
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.QueryResults QueryResults
+FINER: ENTRY org.eclipse.birt.data.engine.impl.ServiceForQueryResults@9f662e
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.QueryResults QueryResults
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ExprManagerUtil ExprManagerUtil
+FINER: ENTRY org.eclipse.birt.data.engine.impl.ExprManager@5f0e7d
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ExprManagerUtil ExprManagerUtil
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.QueryExecutor execute
+FINER: Start to execute
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ExecutorHelper ExecutorHelper
+FINER: ENTRY null
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ExecutorHelper ExecutorHelper
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement execute
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetMetaData
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetMetaData
+FINER: RETURN org.eclipse.birt.data.engine.executor.ResultClass@148f7e0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement execute
+FINER: RETURN true
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getEffectiveQueryText
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getEffectiveQueryText
+FINER: RETURN table0#-TNAME-#table0#:#[/catalog/book]#:#{id;STRING;/@id},{author;STRING;/author},{title;STRING;/title},{genre;STRING;/genre},{price;STRING;/price}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getResultSet
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetMetaData
+FINER: ENTRY
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement doGetMetaData
+FINER: RETURN org.eclipse.birt.data.engine.executor.ResultClass@148f7e0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet ResultSet
+FINER: ENTRY org.eclipse.datatools.connectivity.oda.consumer.helper.OdaResultSet@8c1852 org.eclipse.birt.data.engine.executor.ResultClass@148f7e0
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet ResultSet
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.ResultSet@190ed52
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement getResultSet
+FINER: RETURN org.eclipse.birt.data.engine.odaconsumer.ResultSet@190ed52
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk101,Gambardella, Matthew,XML Developer's Guide,Computer,44.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk102,Ralls, Kim,Midnight Rain,Fantasy,5.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk103,Corets, Eva,Maeve Ascendant,Fantasy,5.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk104,Corets, Eva,Oberon's Legacy,Fantasy,5.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk105,Corets, Eva,The Sundered Grail,Fantasy,5.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk106,Randall, Cynthia,Lover Birds,Romance,4.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk107,Thurman, Paula,Splish Splash,Romance,4.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk108,Knorr, Stefan,Creepy Crawlies,Horror,4.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk109,Kress, Peter,Paradox Lost,Science Fiction,6.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk110,O'Brien, Tim,Microsoft .NET: The Programming Bible,Computer,36.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk111,O'Brien, Tim,MSXML3: A Comprehensive Guide,Computer,36.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet fetch
+FINEST: Fetched next row: bk112,Galos, Mike,Visual Studio 7: A Comprehensive Guide,Computer,49.95 .
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: MemoryCache is used
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: Time consumed by cache is: 0 second
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: MemoryCache is used
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: Time consumed by cache is: 0 second
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY id
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY author
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY title
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY price
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY id
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY author
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY title
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY price
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.QueryExecutor execute
+FINER: Finish executing
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ResultIterator ResultIterator
+FINER: ENTRY org.eclipse.birt.data.engine.impl.QueryResults$ResultService@e0c07c org.eclipse.birt.data.engine.executor.transform.CachedResultSet@17d26fc [object Object]
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.BindingColumnsEvalUtil BindingColumnsEvalUtil
+FINER: ENTRY org.eclipse.birt.data.engine.executor.transform.CachedResultSet@17d26fc [object Object] org.eclipse.birt.data.engine.impl.ResultIterator$RDSaveHelper@1e61582 [org.eclipse.birt.data.engine.impl.GroupBindingColumn@8e2fb5] {}
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.BindingColumnsEvalUtil BindingColumnsEvalUtil
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.ResultIterator ResultIterator
+FINER: RETURN
+12 Oct, 2012 5:11:28 PM org.eclipse.birt.data.engine.impl.QueryResults getResultIterator
+FINER: finished
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory loadFontMappingConfig
+INFO: load font config in jar:file:/E:/WorkSpaces/PracticeWorkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BirtIntegration/WEB-INF/lib/org.eclipse.birt.runtime_3.7.1.v20110913-1734.jar!/fontsConfig.xml cost 381ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/ja/X11/fonts/TT cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/iso_8859_13/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/ru.ansi-1251/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/iso_8859_15/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in d:/windows/fonts cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in C:/windows/fonts cost:292ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/X11R6/lib/X11/fonts/truetype cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/ar/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in e:/WINNT/fonts cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in C:/WINNT/fonts cost:1ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/iso_8859_2/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/X11R6/lib/X11/fonts/tt cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/th_TH/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/iso_8859_8/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/iso_8859_7/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/X11R6/lib/X11/fonts/TTF cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/share/fonts/truetype cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in f:/WINNT/fonts cost:1ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/ko.UTF-8/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in g:/WINNT/fonts cost:5ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/iso_8859_5/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in f:/windows/fonts cost:1ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in d:/WINNT/fonts cost:1ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/share/fonts/ko/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/zh_TW/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in e:/windows/fonts cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/share/fonts/zh_TW/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/share/fonts/ja/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/zh_CN.GB18030/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/share/fonts/default/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/X/lib/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/euro_fonts/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/hi_IN.UTF-8/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/zh.GBK/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/X11R6/lib/X11/fonts/OTF cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/iso_8859_9/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/X11R6/lib/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/zh_TW.BIG5/X11/fonts/TT cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/ko/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/zh_HK.BIG5HK/X11/fonts/TT cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/KOI8-R/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/openwin/lib/locale/zh/X11/fonts/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in /usr/share/fonts/zh_CN/TrueType cost:0ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory$2 run
+INFO: register fonts in g:/windows/fonts cost:4ms
+12 Oct, 2012 5:11:29 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory loadFontMappingConfig
+INFO: load font config in jar:file:/E:/WorkSpaces/PracticeWorkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BirtIntegration/WEB-INF/lib/org.eclipse.birt.runtime_3.7.1.v20110913-1734.jar!/fontsConfig_win32.xml cost 351ms
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.report.engine.layout.pdf.font.FontMappingManagerFactory loadFontMappingConfig
+INFO: load font config in jar:file:/E:/WorkSpaces/PracticeWorkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BirtIntegration/WEB-INF/lib/org.eclipse.birt.runtime_3.7.1.v20110913-1734.jar!/fontsConfig_pdf.xml cost 199ms
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet close
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.ResultSet close
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator close
+FINER: a ResultIterator is closed
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement close
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement$SequentialResultSetHandler getMoreResults
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement supportsMultipleResultSets
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement supportsMultipleResultSets
+FINER: RETURN false
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement$SequentialResultSetHandler getMoreResults
+FINER: RETURN false
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement resetResultsAndMetaData
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement resetCurrentResultAndMetaData
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement resetCurrentResultAndMetaData
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement resetResultsAndMetaData
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.odaconsumer.PreparedStatement close
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryExecutor close
+FINER: executor closed 
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryResults close
+FINER: QueryResults is closed
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.DataSetRuntime DataSetRuntime
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@17c8f7f null
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.DataSetRuntime DataSetRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime OdaDataSetRuntime
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@17c8f7f null
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime OdaDataSetRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime <init>
+FINER: OdaDataSetRuntime starts up
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: ENTRY null org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@66eb46 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@618565 [object Object]
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryExecutor QueryExecutor
+FINER: ENTRY [object Object] org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@618565 org.eclipse.birt.data.engine.impl.aggregation.AggregateTable@e07e6b org.eclipse.birt.data.engine.impl.DataEngineSession@154de0b
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryExecutor QueryExecutor
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.PreparedQuery doPrepare
+FINER: Start to prepare the execution.
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.DataSetRuntime DataSetRuntime
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@17c8f7f org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor@8bb9d1
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.DataSetRuntime DataSetRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime OdaDataSetRuntime
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetAdapter@17c8f7f org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor@8bb9d1
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime OdaDataSetRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.OdaDataSetRuntime <init>
+FINER: OdaDataSetRuntime starts up
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: ENTRY null org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@1546c85 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@618565 [object Object]
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: ENTRY null org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@1546c85 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@618565 [object Object]
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ColumnInfo ColumnInfo
+FINER: ENTRY -1 genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ColumnInfo ColumnInfo
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ColumnInfo ColumnInfo
+FINER: ENTRY -1 _{$TEMP_GROUP_0$}_
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ColumnInfo ColumnInfo
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper ComputedColumnHelper
+FINER: ENTRY org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@1546c85 [] [org.eclipse.birt.data.engine.api.querydefn.ComputedColumn@1ec3264]
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper ComputedColumnHelper
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: ENTRY null org.eclipse.birt.data.engine.impl.OdaDataSetRuntime@1546c85 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@618565 [object Object]
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ParameterUtil ParameterUtil
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.PreparedQuery doPrepare
+FINER: Finish preparing the execution.
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ServiceForQueryResults ServiceForQueryResults
+FINER: ENTRY org.eclipse.birt.data.engine.impl.DataEngineSession@154de0b [object Object] 2 org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery@67ad79 org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery@67ad79 org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor@8bb9d1 org.eclipse.birt.data.engine.api.querydefn.QueryDefinition@618565 org.eclipse.birt.data.engine.impl.ExprManager@ae00e3
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ServiceForQueryResults ServiceForQueryResults
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryResults QueryResults
+FINER: ENTRY org.eclipse.birt.data.engine.impl.ServiceForQueryResults@1bc6ed3
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryResults QueryResults
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ExprManagerUtil ExprManagerUtil
+FINER: ENTRY org.eclipse.birt.data.engine.impl.ExprManager@ae00e3
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ExprManagerUtil ExprManagerUtil
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryExecutor execute
+FINER: Start to execute
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ExecutorHelper ExecutorHelper
+FINER: ENTRY null
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ExecutorHelper ExecutorHelper
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: MemoryCache is used
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: Time consumed by cache is: 0 second
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ComputedColumnHelper process
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: MemoryCache is used
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: Time consumed by cache is: 0 second
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: MemoryCache is used
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper populateData
+FINE: Time consumed by cache is: 0 second
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY id
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY author
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY title
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: ENTRY price
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ColumnReferenceExpression ColumnReferenceExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: ENTRY
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.expression.ComplexExpression ComplexExpression
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryExecutor execute
+FINER: Finish executing
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator ResultIterator
+FINER: ENTRY org.eclipse.birt.data.engine.impl.QueryResults$ResultService@1dd8136 org.eclipse.birt.data.engine.executor.transform.CachedResultSet@14e3372 [object Object]
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.BindingColumnsEvalUtil BindingColumnsEvalUtil
+FINER: ENTRY org.eclipse.birt.data.engine.executor.transform.CachedResultSet@14e3372 [object Object] org.eclipse.birt.data.engine.impl.ResultIterator$RDSaveHelper@1d281f1 [org.eclipse.birt.data.engine.impl.GroupBindingColumn@1511e28, org.eclipse.birt.data.engine.impl.GroupBindingColumn@92d6d2] {}
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.BindingColumnsEvalUtil BindingColumnsEvalUtil
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator ResultIterator
+FINER: RETURN
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.QueryResults getResultIterator
+FINER: finished
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: row[price]_Sum
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: row[price]_Sum
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: row[price]_Sum
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: row[price]_Sum
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: genre
+12 Oct, 2012 5:11:30 PM org.eclipse.birt.data.engine.impl.ResultIterator getValue
+FINER: get of value binding column: row[price]_Sum
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.ResultIterator close
+FINER: a ResultIterator is closed
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.QueryExecutor close
+FINER: executor closed 
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.QueryResults close
+FINER: QueryResults is closed
+12 Oct, 2012 5:11:32 PM DataEngineImpl shutdown
+FINER: ENTRY
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.odaconsumer.Connection close
+FINER: ENTRY
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.odaconsumer.Connection close
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl shutdown
+FINE: Data engine shuts down
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl shutdown
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+FINE: ReportEngine.openReportDocument: fileName=E:\WorkSpaces\PracticeWorkspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\BirtIntegration\Reports/temp.rptdocument 
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+FINE: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@d16610 
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+FINE: EngineTask.setAppContext: context=
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+FINE: ReportEngine.openReportDesign: name=file:/E:/WorkSpaces/PracticeWorkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BirtIntegration/Reports/books_report.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@326c98, options={3} 
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.api.DataEngineContext DataEngineContext
+FINER: ENTRY 2 [object Object] org.eclipse.birt.core.archive.FileArchiveReader@16e9494 null org.eclipse.birt.report.engine.executor.ApplicationClassLoader@dc93be
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.api.DataEngineContext DataEngineContext
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl DataEngineImpl
+FINER: ENTRY org.eclipse.birt.data.engine.api.DataEngineContext@ea5d87
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineSession DataEngineSession
+FINER: ENTRY org.eclipse.birt.data.engine.impl.DataEngineImpl@a28815
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineSession DataEngineSession
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl DataEngineImpl
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl <init>
+FINER: Data Engine starts up
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSource
+FINER: ENTRY Books Data Source
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSource
+FINER: DataEngine.defineDataSource: OdaDataSourceDesign(Name : Books Data Source
+ExtensionID : org.eclipse.datatools.enablement.oda.xml
+PrivateProperties : {}
+ PulicProperties : FILELIST=http://localhost:9080/BirtIntegration/ReportXmlDatasource/books.xml;OdaPropertyConfigId=org.eclipse.datatools.enablement.oda.xml_Books Data Source;
+)
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataSourceRuntime DataSourceRuntime
+FINER: ENTRY org.eclipse.birt.report.data.adapter.internal.adapter.OdaDataSourceAdapter@61c596 [object Object]
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataSourceRuntime DataSourceRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.OdaDataSourceRuntime OdaDataSourceRuntime
+FINER: ENTRY org.eclipse.birt.report.data.adapter.internal.adapter.OdaDataSourceAdapter@61c596 [object Object]
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.OdaDataSourceRuntime OdaDataSourceRuntime
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.OdaDataSourceRuntime <init>
+FINER: OdaDataSourceRuntime starts up
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSource
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.data.adapter.impl.ModelAdapter adaptDataSet
+FINE: handle type: org.eclipse.birt.report.model.api.OdaDataSetHandle
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSet
+FINER: ENTRY Data Set
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSet
+FINER: DataEngine.defineDataSet: OdaDataSetDesign(Name : Data Set
+DataSourceName : Books Data Source
+ResultSetHints : org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@f30862, 
+	org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@1ab5e85, 
+	org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@1ca73bf, 
+	org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@7510e7, 
+	org.eclipse.birt.report.data.adapter.internal.adapter.ColumnAdapter@1a8c064
+ExtensionID : org.eclipse.datatools.enablement.oda.xml.dataSet
+QueryText : table0#-TNAME-#table0#:#[/catalog/book]#:#{id;STRING;/@id},{author;STRING;/author},{title;STRING;/title},{genre;STRING;/genre},{price;STRING;/price}
+PrivateProperties : {XML_FILE=null, MAX_ROW=-1}
+PublicProperties : {}
+)
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl defineDataSet
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter start
+FINE: [HTMLReportEmitter] Start emitter.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINER: ENTRY QueryDefinition(DataSetName : Data Set
+ResultSetExpressions : {id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149}
+MaxRows : 0
+
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINE: Start to prepare query: QueryDefinition(DataSetName : Data Set
+ResultSetExpressions : {id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149}
+MaxRows : 0
+
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINE: Finished preparing query.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter doStartTable
+FINE: [HTMLTableEmitter] Start table
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startText
+FINE: [HTMLReportEmitter] Start text
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startCell
+FINE: [HTMLTableEmitter] Start cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endCell
+FINE: [HTMLReportEmitter] End cell.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endTable
+FINE: [HTMLTableEmitter] End table
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINER: ENTRY QueryDefinition(DataSetName : Data Set
+ResultSetExpressions : {id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149, row[price]_Sum=org.eclipse.birt.data.engine.api.querydefn.Binding@2916b821}
+MaxRows : 0
+Groups : GroupDefinition(Name : row[genre], KeyExpression : row["genre"], SortDirection : 0, Interval : 0, IntervalRange : 1.0, )
+
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINE: Start to prepare query: QueryDefinition(DataSetName : Data Set
+ResultSetExpressions : {id=org.eclipse.birt.data.engine.api.querydefn.Binding@d1b, author=org.eclipse.birt.data.engine.api.querydefn.Binding@ac2d218b, title=org.eclipse.birt.data.engine.api.querydefn.Binding@6942258, genre=org.eclipse.birt.data.engine.api.querydefn.Binding@5db0983, price=org.eclipse.birt.data.engine.api.querydefn.Binding@65fb149, row[price]_Sum=org.eclipse.birt.data.engine.api.querydefn.Binding@2916b821}
+MaxRows : 0
+Groups : GroupDefinition(Name : row[genre], KeyExpression : row["genre"], SortDirection : 0, Interval : 0, IntervalRange : 1.0, )
+
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINE: Finished preparing query.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl prepare
+FINER: RETURN
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startImage
+FINE: [HTMLImageEmitter] Start image
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter endPage
+FINE: [HTMLReportEmitter] End page.
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter startForeign
+FINE: [HTMLReportEmitter] Start foreign
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter end
+FINE: [HTMLReportEmitter] End body.
+12 Oct, 2012 5:11:32 PM DataEngineImpl shutdown
+FINER: ENTRY
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl shutdown
+FINE: Data engine shuts down
+12 Oct, 2012 5:11:32 PM org.eclipse.birt.data.engine.impl.DataEngineImpl shutdown
+FINER: RETURN
